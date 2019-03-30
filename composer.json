@@ -1,0 +1,22 @@
+{
+    "name": "wrossmann/utf8_escape",
+    "type": "library",
+    "require": {
+        "php": ">= 5.4",
+        "symfony/polyfill-mbstring": "^1.11"
+    },
+    "authors": [
+        {
+            "name": "Wade Rossmann",
+            "email": "wrossmann@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "wrossmann\\utf8_escape\\": "src/"
+        },
+        "files": [
+            "lib/functions.php"
+        ]
+    }
+}
